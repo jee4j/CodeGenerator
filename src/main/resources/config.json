@@ -1,5 +1,11 @@
 {
   "server": {
     "port": 8888
+  },
+  "datasource": {
+    "driverClassName": "org.sqlite.JDBC",
+    "url": "jdbc:sqlite::resource:db/code-generator.db",
+    "username": "root",
+    "password": "123456"
   }
 }
